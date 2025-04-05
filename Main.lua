@@ -10,7 +10,7 @@
 ]]
 
 if debugX then
-	warn('Initialising ItchyDivide7)
+	warn('Initialising Rayfield')
 end
 
 local function getService(name)
@@ -1557,11 +1557,11 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.TextTransparency = 1
 
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "ItchyDivide7"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
 
-	if Settings.LoadingTitle ~= "ItchyDivide7 Interface Suite" then
-		LoadingFrame.Version.Text = "ItchyDivide7 UI"
+	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
+		LoadingFrame.Version.Text = "Rayfield UI"
 	end
 
 	if Settings.Icon and Settings.Icon ~= 0 and Topbar:FindFirstChild('Icon') then

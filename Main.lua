@@ -1558,7 +1558,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 	LoadingFrame.Version.TextTransparency = 1
 	LoadingFrame.Title.Text = Settings.LoadingTitle or "ItchyDivide7"
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "ItchyDivide7 Interface Suite"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
 
 	if Settings.LoadingTitle ~= "ItchyDivide7 Interface Suite" then
 		LoadingFrame.Version.Text = "ItchyDivide7 UI"

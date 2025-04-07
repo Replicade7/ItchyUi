@@ -1553,7 +1553,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	if Main:FindFirstChild('Notice') then Main.Notice.Visible = false end
 	Main.Shadow.Image.ImageTransparency = 1
 
-	LoadingFrame.Title.TextTransparency = 0
+	LoadingFrame.Title.TextTransparency = 1
 	LoadingFrame.Subtitle.TextTransparency = 1
 
 	LoadingFrame.Version.TextTransparency = 1
